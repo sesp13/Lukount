@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*Estilos generales*/
+:root {
+  --light-green: #86eda7;
+}
+
+/* Botones */
+.btn-outline-light-green {
+  color: var(--light-green);
+  border-color: var(--light-green);
+}
+.btn-outline-light-green:hover {
+    background-color: var(--light-green);
+    color: white;
+}
+
+.btn-light-green{
+    color: white;
+    border-color: var(--light-green);
+    background-color: var(--light-green);
+}
+
+.btn-light-green:hover{
+    color: #48835b;
+}
+
+/* Estilos de la cabecera */
+#header {
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+#header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+#header ul li {
+  list-style: none;
+}
+
+#header ul li a{
+    color: black;
+}
+
+#header ul li a:hover{
+    color: var(--light-green);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#header ul li button {
+  border-radius: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
