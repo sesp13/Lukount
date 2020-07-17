@@ -4,10 +4,6 @@
     display: block;
   }
 
-  .w-100{
-    width: 100%;
-  }
-  
   #solution-form input[type="text"],
   #solution-form input[type="email"] {
     box-shadow: 1px 2px 3px rgb(156, 156, 156);

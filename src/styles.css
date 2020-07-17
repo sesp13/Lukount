@@ -57,7 +57,7 @@ h5 {
 }
 
 .btn-light-green:hover {
-  color: #48835b;
+  color: var(--dark-green);
 }
 
 .bg-light-green {
@@ -80,7 +80,7 @@ h5 {
 }
 
 .btn-dark-green:hover {
-  color: #48835b;
+  color: var(--light-green);
 }
 
 .bg-dark-green {
