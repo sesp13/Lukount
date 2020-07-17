@@ -12,6 +12,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { ContactAdvisorComponent } from './components/contact-advisor/contact-advisor.component';
 import { FAQComponent } from './pages/faq/faq.component';
 import { FaqContainerComponent } from './components/faq-container/faq-container.component';
+import { BlogComponent } from './pages/blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FaqContainerComponent } from './components/faq-container/faq-container.
     ContactComponent,
     ContactAdvisorComponent,
     FAQComponent,
-    FaqContainerComponent
+    FaqContainerComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
