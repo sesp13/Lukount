@@ -3,6 +3,7 @@
 /*Estilos generales*/
 :root {
   --light-green: #86eda7;
+  --dark-green: #264332;
 }
 
 /* Botones */
@@ -11,51 +12,43 @@
   border-color: var(--light-green);
 }
 .btn-outline-light-green:hover {
-    background-color: var(--light-green);
-    color: white;
+  background-color: var(--light-green);
+  color: white;
 }
 
-.btn-light-green{
-    color: white;
-    border-color: var(--light-green);
-    background-color: var(--light-green);
+.btn-light-green {
+  color: white;
+  border-color: var(--light-green);
+  background-color: var(--light-green);
 }
 
-.btn-light-green:hover{
-    color: #48835b;
+.btn-light-green:hover {
+  color: #48835b;
 }
 
-/* Estilos de la cabecera */
-#header {
-  height: 150px;
-  margin-bottom: 50px;
+.bg-light-green{
+  background-color: var(--light-green);
 }
 
-#header ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
+.btn-outline-dark-green {
+  color: var(--dark-green);
+  border-color: var(--dark-green);
+}
+.btn-outline-dark-green:hover {
+  background-color: var(--dark-green);
+  color: white;
 }
 
-#header ul li {
-  list-style: none;
+.btn-dark-green {
+  color: white;
+  border-color: var(--dark-green);
+  background-color: var(--dark-green);
 }
 
-#header ul li a{
-    color: black;
+.btn-dark-green:hover {
+  color: #48835b;
 }
 
-#header ul li a:hover{
-    color: var(--light-green);
-    cursor: pointer;
-    text-decoration: none;
-}
-
-#header ul li button {
-  border-radius: 20px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-right: 30px;
-  padding-left: 30px;
+.bg-dark-green{
+  background-color: var(--dark-green);
 }

@@ -1,0 +1,326 @@
+/* Banner principal */
+#main-banner {
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+#main-banner h1 {
+  color: var(--light-green);
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+#main-banner h1 span {
+  font-weight: bold;
+}
+
+#main-banner p {
+  font-size: 20px;
+}
+
+#main-banner .btn {
+  padding: 15px;
+  width: 50%;
+  border-radius: 50px;
+  box-shadow: 1px 1px 5px var(--light-green);
+}
+
+/* Baner de mision */
+#mission-banner {
+  height: auto;
+  margin-bottom: 50px;
+}
+
+#mission-banner h2 {
+  color: var(--light-green);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+#mission-banner p {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+#mission-banner .btn {
+  width: 50%;
+  padding: 15px;
+  border-radius: 50px;
+  margin-top: 15px;
+}
+
+/* banner de asesor 1 */
+#banner-advison-1,
+#banner-advison-2 {
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+#banner-advison-1 .message h2 ,
+#banner-advison-2 .message h2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: var(--dark-green);
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+
+#banner-advison-1 .message p ,
+#banner-advison-2 .message p {
+  font-size: 17px;
+  text-align: center;
+}
+
+#banner-advison-1-form {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+#banner-advison-1-form input[type="text"],
+#banner-advison-1-form input[type="email"] {
+  border-radius: 50px;
+}
+
+#banner-advison-1-form input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 50%;
+}
+
+/* banner about */
+#banner-about {
+  height: auto;
+  margin-bottom: 70px;
+}
+
+#banner-about h2 {
+  color: var(--light-green);
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#banner-about .article-right {
+  text-align: right;
+}
+
+#banner-about .article-left {
+  text-align: left;
+}
+
+#banner-about .f-article {
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+#banner-about .article h3 {
+  font-weight: bold;
+  font-size: 25px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+/* discover solution */
+#discover-solution {
+  height: auto;
+  margin-bottom: 75px;
+}
+
+#discover-solution h2 {
+  color: var(--dark-green);
+  font-weight: bold;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+#discover-solution form {
+  margin-top: 25px;
+  width: 80%;
+  display: block;
+}
+
+#discover-solution form input[type="text"],
+#discover-solution form input[type="email"] {
+  box-shadow: 1px 2px 3px rgb(156, 156, 156);
+  border-radius: 50px;
+  padding: 25px;
+}
+
+#discover-solution form .form-check {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#discover-solution form input[type="submit"] {
+  padding: 15px;
+  width: 50%;
+  border-radius: 50px;
+  box-shadow: 1px 1px 5px var(--light-green);
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#discover-solution .message h3 {
+  color: var(--light-green);
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#discover-solution .message ul {
+  padding-left: 10px;
+}
+
+/* clients */
+#clients {
+  height: auto;
+  margin-bottom: 100px;
+}
+
+#clients h2 {
+  color: var(--light-green);
+  text-align: center;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#clients h2 span {
+  font-weight: bold;
+}
+
+#clients .client-grid .card-container{
+    height: auto;
+    margin-bottom: 100px;
+}
+
+#clients .client-grid .card {
+  background-color: var(--light-green);
+  color: white;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 1px 5px 5px rgb(211, 211, 211);
+}
+
+#clients .client-grid .card .card-body {
+  text-align: center;
+}
+
+#clients .client-grid .card .card-body .blockquote {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  height: auto;
+}
+#clients .client-grid .client-photo {
+  border-radius: 75%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 40%;
+  bottom: -20%;
+  overflow: hidden;
+  background-color: blue;
+}
+
+@media (min-width: 768px) {
+  #clients .client-grid .client-photo {
+    left: 43%;
+    bottom: -20%;
+  }
+}
+
+@media (min-width: 992px) {
+  #clients .client-grid .client-photo {
+    left: 33%;
+    bottom: -24%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #clients .client-grid .client-photo {
+    left: 37%;
+    bottom: -19%;
+  }
+}
+
+#clients .client-grid .client-photo img {
+  width: 100%;
+  height: 100%;
+}
+
+#clients .client-grid .client-name {
+  position: absolute;
+  font-size: 25px;
+  left: 33%;
+  bottom: -36%;
+}
+
+@media (min-width: 576px) {
+  #clients .client-grid .client-name {
+    left: 35%;
+    bottom: -36%;
+  }
+}
+
+@media (min-width: 768px) {
+  #clients .client-grid .client-name {
+    left: 39%;
+    bottom: -36%;
+  }
+}
+
+@media (min-width: 992px) {
+  #clients .client-grid .client-name {
+    left: 25%;
+    bottom: -41%;
+  }
+}
+
+@media (min-width: 992px) {
+  #clients .client-grid .client-name {
+    left: 25%;
+    bottom: -41%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #clients .client-grid .client-name {
+    left: 30%;
+    bottom: -37%;
+  }
+}
+
+/* banner-advison-2 */
+#banner-advison-2{
+    margin-bottom: 0;
+}
+
+#banner-advison-2 .btn{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 50px;
+    padding: 15px;
+}
