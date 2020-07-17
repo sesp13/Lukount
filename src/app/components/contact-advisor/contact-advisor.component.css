@@ -1,0 +1,29 @@
+/*contact-advisor-banner */
+
+#contact-advisor-banner {
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+
+#contact-advisor-banner .message h2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: var(--dark-green);
+  font-size: 45px;
+  text-align: center;
+}
+
+#contact-advisor-banner .message p {
+  font-size: 17px;
+  text-align: center;
+}
+
+#contact-advisor-banner .btn {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 50px;
+  padding: 15px;
+}

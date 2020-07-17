@@ -46,7 +46,7 @@
   line-height: 28px;
 }
 
-#mission-banner p span{
+#mission-banner p span {
   text-decoration: underline;
   text-decoration-color: var(--light-green);
 }
@@ -59,16 +59,14 @@
 }
 
 /* banner de asesor 1 */
-#banner-advison-1,
-#banner-advison-2 {
+#banner-advison-1 {
   height: auto;
   padding-top: 50px;
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
 
-#banner-advison-1 .message h2 ,
-#banner-advison-2 .message h2 {
+#banner-advison-1 .message h2 {
   padding-top: 5px;
   padding-bottom: 5px;
   color: var(--dark-green);
@@ -76,8 +74,7 @@
   text-align: center;
 }
 
-#banner-advison-1 .message p ,
-#banner-advison-2 .message p {
+#banner-advison-1 .message p {
   font-size: 17px;
   text-align: center;
 }
@@ -171,9 +168,9 @@
   font-family: "Tommy-Regular";
 }
 
-#clients .client-grid .card-container{
-    height: auto;
-    margin-bottom: 100px;
+#clients .client-grid .card-container {
+  height: auto;
+  margin-bottom: 100px;
 }
 
 #clients .client-grid .card {
@@ -271,17 +268,4 @@
     left: 30%;
     bottom: -37%;
   }
-}
-
-/* banner-advison-2 */
-#banner-advison-2{
-    margin-bottom: 0;
-}
-
-#banner-advison-2 .btn{
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    border-radius: 50px;
-    padding: 15px;
 }
