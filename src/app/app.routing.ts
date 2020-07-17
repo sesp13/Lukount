@@ -9,6 +9,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 const appRoutes: Routes = [
     // {path: 'miRuta', component: MiComponente},
     {path: '', component: HomeComponent},
+    {path: 'home', component: HomeComponent},
     {path: 'contacto', component: ContactComponent},
     
     //Ruta 404

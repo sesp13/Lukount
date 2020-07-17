@@ -42,9 +42,14 @@
 }
 
 #mission-banner p {
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
-  line-height: 25px;
+  line-height: 28px;
+}
+
+#mission-banner p span{
+  text-decoration: underline;
+  text-decoration-color: var(--light-green);
 }
 
 #mission-banner .btn {

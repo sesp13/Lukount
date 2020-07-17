@@ -1,38 +1,47 @@
 /* Estilos de la cabecera */
 #header {
-    height: 150px;
-    margin-bottom: 50px;
-  }
-  
-  #header-nav {
-    height: 100%;
-  }
-  
-  #header-nav ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-  }
-  
-  #header-nav ul li {
-    list-style: none;
-  }
-  
-  #header-nav ul li a {
-    color: black;
-  }
-  
-  #header-nav ul li a:hover {
-    color: var(--light-green);
-    cursor: pointer;
-    text-decoration: none;
-  }
-  
-  #header-nav ul li button {
-    border-radius: 20px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-right: 30px;
-    padding-left: 30px;
-  }
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+#header-nav {
+  height: 100%;
+}
+
+#header-nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+#header-nav ul li {
+  list-style: none;
+}
+
+#header-nav ul li a {
+  color: black;
+}
+
+#header-nav ul li .active {
+  color: var(--light-green) !important;
+}
+
+#header-nav ul li a:hover,
+#header-nav ul li .active:hover {
+  color: var(--light-green);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#header-nav ul li .active:hover {
+  color: var(--dark-green) !important;
+}
+
+#header-nav ul li button {
+  border-radius: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
