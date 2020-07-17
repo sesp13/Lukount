@@ -1,0 +1,22 @@
+<div class="container">
+    <section class="row" id="main-banner">
+        <div class="col-12">
+            <h1>Preguntas frecuentes</h1>
+            <p>
+                Respuestas a todo lo que se pregunta sobre la aplicación y el servicio
+            </p>
+        </div>
+    </section>
+
+    <section id="faq-banner" class="row">
+        <div class="col-md-10" id="faq-grid">
+            <app-faq-container *ngFor="let item of questions" [question]="item.question" [answer]="item.answer">
+            </app-faq-container>
+        </div>
+        <div class="col-sm-0 col-md-2">
+
+        </div>
+    </section>
+
+</div>
+<app-contact-advisor></app-contact-advisor>

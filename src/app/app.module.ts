@@ -10,6 +10,8 @@ import { SolutionFormComponent } from './components/solution-form/solution-form.
 import { ContactMessageComponent } from './components/contact-message/contact-message.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ContactAdvisorComponent } from './components/contact-advisor/contact-advisor.component';
+import { FAQComponent } from './pages/faq/faq.component';
+import { FaqContainerComponent } from './components/faq-container/faq-container.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ContactAdvisorComponent } from './components/contact-advisor/contact-ad
     SolutionFormComponent,
     ContactMessageComponent,
     ContactComponent,
-    ContactAdvisorComponent
+    ContactAdvisorComponent,
+    FAQComponent,
+    FaqContainerComponent
   ],
   imports: [
     BrowserModule,

@@ -2,6 +2,7 @@ import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { FAQComponent } from './pages/faq/faq.component';
 
 //Importación de componentes
 
@@ -11,6 +12,7 @@ const appRoutes: Routes = [
     {path: '', component: HomeComponent},
     {path: 'home', component: HomeComponent},
     {path: 'contacto', component: ContactComponent},
+    {path: 'faq', component: FAQComponent},
     
     //Ruta 404
     {path: '**', component: HomeComponent}
