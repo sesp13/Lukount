@@ -9,6 +9,11 @@
 
 /*Orden según intensidad*/
 @font-face {
+  font-family: "Tommy-Light";
+  src: url(./assets/css/fonts/MADETommySoftLight.otf);
+}
+
+@font-face {
   font-family: "Tommy-Regular";
   src: url(./assets/css/fonts/MADETommySoft.otf);
 }
