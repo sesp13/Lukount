@@ -3,6 +3,10 @@
     width: 80%;
     display: block;
   }
+
+  .w-100{
+    width: 100%;
+  }
   
   #solution-form input[type="text"],
   #solution-form input[type="email"] {

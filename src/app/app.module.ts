@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SolutionFormComponent } from './components/solution-form/solution-form.component';
 import { ContactMessageComponent } from './components/contact-message/contact-message.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactMessageComponent } from './components/contact-message/contact-me
     HeaderComponent,
     FooterComponent,
     SolutionFormComponent,
-    ContactMessageComponent
+    ContactMessageComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
