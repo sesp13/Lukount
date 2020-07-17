@@ -2,8 +2,42 @@
 
 /*Estilos generales*/
 :root {
-  --light-green: #86eda7;
-  --dark-green: #264332;
+  --light-green: #00f1a8;
+  --dark-green: #00412d;
+  --gray: #e8e8e8;
+}
+
+/*Orden según intensidad*/
+@font-face {
+  font-family: "Tommy-Regular";
+  src: url(./assets/css/fonts/MADETommySoft.otf);
+}
+
+@font-face {
+  font-family: "Tommy-Medium";
+  src: url(./assets/css/fonts/MADETommySoftMedium.otf);
+}
+
+@font-face {
+  font-family: "Tommy-Bold";
+  src: url(./assets/css/fonts/MADETommySoftBold.otf);
+}
+
+@font-face {
+  font-family: "Tommy-Black";
+  src: url(./assets/css/fonts/MADETommySoftBlack.otf);
+}
+
+body {
+  font-family: "Tommy-Regular";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Tommy-Bold";
 }
 
 /* Botones */
@@ -26,7 +60,7 @@
   color: #48835b;
 }
 
-.bg-light-green{
+.bg-light-green {
   background-color: var(--light-green);
 }
 
@@ -49,7 +83,7 @@
   color: #48835b;
 }
 
-.bg-dark-green{
+.bg-dark-green {
   background-color: var(--dark-green);
 }
 
@@ -79,6 +113,6 @@
   text-decoration: none;
 }
 
-#footer .images img{
+#footer .images img {
   margin-right: 20px;
 }
