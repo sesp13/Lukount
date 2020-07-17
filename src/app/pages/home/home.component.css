@@ -153,16 +153,6 @@
   padding-bottom: 25px;
 }
 
-#discover-solution .message h3 {
-  color: var(--light-green);
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
-#discover-solution .message ul {
-  padding-left: 10px;
-}
-
 /* clients */
 #clients {
   height: auto;
