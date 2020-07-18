@@ -94,33 +94,3 @@ h5 {
 .bg-dark-green {
   background-color: var(--dark-green);
 }
-
-#footer-nav {
-  height: 100%;
-}
-
-#footer-nav ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-}
-
-#footer-nav ul li {
-  list-style: none;
-}
-
-#footer-nav ul li a {
-  color: white;
-  font-size: 20px;
-}
-
-#footer-nav ul li a:hover {
-  color: var(--light-green);
-  cursor: pointer;
-  text-decoration: none;
-}
-
-#footer .images img {
-  margin-right: 20px;
-}
