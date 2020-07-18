@@ -4,6 +4,14 @@
   padding-bottom: 30px;
 }
 
+#footer p{
+  margin-bottom: 0;
+}
+
+#footer p a {
+  color: var(--light-green);
+} 
+
 #footer-nav {
   height: 100%;
 }

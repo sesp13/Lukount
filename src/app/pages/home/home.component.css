@@ -117,6 +117,10 @@
   margin-bottom: 30px;
 }
 
+#banner-about .article{
+  margin-bottom: 30px;
+}
+
 #banner-about .article-right {
   text-align: right;
 }
@@ -127,13 +131,12 @@
 
 #banner-about .f-article {
   height: 200px;
-  margin-bottom: 30px;
 }
 
 #banner-about .article h3 {
-  font-size: 25px;
+  font-size: 23px;
   height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* discover solution */
@@ -188,7 +191,7 @@
 #clients .client-grid .card .card-body .blockquote {
   display: block;
   margin: 0 auto;
-  width: 25%;
+  width: 80px;
   height: auto;
   padding: 20px;
 }
