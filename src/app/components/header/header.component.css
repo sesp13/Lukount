@@ -1,18 +1,40 @@
 /* Estilos de la cabecera */
+#header{
+  height: auto;
+  margin-bottom: 50px;
+}
+
+#header .logo-container{
+  width: 80%;
+  height: 80%;
+  background-color: var(--dark-green);
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
 #header {
   height: 150px;
-  margin-bottom: 50px;
+}
 }
 
 #header-nav {
   height: 100%;
 }
 
-#header-nav ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
+@media (min-width: 576px) {
+  #header-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+}
+
+#header-nav ul li {
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #header-nav ul li {
@@ -21,6 +43,15 @@
 
 #header-nav ul li a {
   color: black;
+}
+#header-nav ul .separator{
+  display: none;
+}
+
+@media (min-width: 576px) {
+  #header-nav ul .separator{
+    display: block;
+  }
 }
 
 #header-nav ul li .active {
