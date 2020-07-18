@@ -14,6 +14,7 @@ import { FAQComponent } from './pages/faq/faq.component';
 import { FaqContainerComponent } from './components/faq-container/faq-container.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { BlogCardComponent } from './components/blog-card/blog-card.component';
+import { BlogEntryComponent } from './pages/blog-entry/blog-entry.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { BlogCardComponent } from './components/blog-card/blog-card.component';
     FAQComponent,
     FaqContainerComponent,
     BlogComponent,
-    BlogCardComponent
+    BlogCardComponent,
+    BlogEntryComponent
   ],
   imports: [
     BrowserModule,
