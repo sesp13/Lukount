@@ -1,10 +1,11 @@
 /* Estilos de la cabecera */
-#header{
+#header {
+  margin-top: 50px;
   height: auto;
   margin-bottom: 50px;
 }
 
-#header .logo-container{
+#header .logo-container {
   width: 80%;
   height: 80%;
   background-color: var(--dark-green);
@@ -13,16 +14,64 @@
 }
 
 @media (min-width: 768px) {
-#header {
-  height: 150px;
+  #header {
+    height: 150px;
+  }
 }
+
+#bars-container{
+  float: right;
+  background-color: white;
+  border: none;
+  text-shadow: none;
+}
+
+.fa-bars{
+  color: var(--light-green);
+  font-size: 30px;
+}
+
+/* Modal del menú */
+
+#menu-header{
+  border: none;
+  padding-right: 30px;
+}
+
+
+#menu-body{
+  border: none;
+  padding-right: 30px;
+}
+
+#menu-body nav ul li{
+  list-style: none;
+  padding: 20px;
+}
+
+#menu-body nav ul li a{
+  color: var(--light-green);
+}
+
+#menu-body nav ul li #register-button{
+  margin-top: 50px;
+
 }
 
 #header-nav {
-  height: 100%;
+  display: none;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
+  
+  .fa-bars{
+    display: none;
+  }
+  
+  #header-nav {
+    display: block;
+  }
+
   #header-nav ul {
     display: flex;
     justify-content: space-around;
@@ -44,12 +93,12 @@
 #header-nav ul li a {
   color: black;
 }
-#header-nav ul .separator{
+#header-nav ul .separator {
   display: none;
 }
 
 @media (min-width: 576px) {
-  #header-nav ul .separator{
+  #header-nav ul .separator {
     display: block;
   }
 }
@@ -69,7 +118,8 @@
   color: var(--dark-green) !important;
 }
 
-#header-nav ul li button {
+#header-nav ul li button,
+#menu-body nav ul li #register-button {
   border-radius: 20px;
   padding-top: 6px;
   padding-bottom: 6px;

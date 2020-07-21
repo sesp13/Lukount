@@ -15,6 +15,7 @@ import { FaqContainerComponent } from './components/faq-container/faq-container.
 import { BlogComponent } from './pages/blog/blog.component';
 import { BlogCardComponent } from './components/blog-card/blog-card.component';
 import { BlogEntryComponent } from './pages/blog-entry/blog-entry.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { BlogEntryComponent } from './pages/blog-entry/blog-entry.component';
   ],
   imports: [
     BrowserModule,
-    routing
+    routing,
+    NgbModule
   ],
   providers: [
     appRoutingProviders
