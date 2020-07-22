@@ -1,0 +1,77 @@
+/* banner de asesor 1 */
+#banner-advison-1 {
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+#banner-advison-1 .message h2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: var(--dark-green);
+  text-align: center;
+  font-size: 30px;
+}
+
+@media (min-width: 576px) {
+  #banner-advison-1 .message h2 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  #banner-advison-1 .message h2 {
+    font-size: 45px;
+  }
+}
+
+#banner-advison-1 .message p {
+  text-align: center;
+  font-size: 15px;
+  color: var(--dark-green);
+}
+
+@media (min-width: 576px) {
+  #banner-advison-1 .message p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  #banner-advison-1 .message p {
+    font-size: 17px;
+  }
+}
+
+#banner-advison-1-form {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  #banner-advison-1-form {
+    width: 70%;
+  }
+}
+
+#banner-advison-1-form input[type="text"],
+#banner-advison-1-form input[type="email"] {
+  border-radius: 50px;
+}
+
+#banner-advison-1-form .form-check label {
+  font-family: "Tommy-Light";
+  color: var(--dark-gray);
+}
+
+#banner-advison-1-form input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 50%;
+}

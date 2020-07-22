@@ -94,3 +94,14 @@ h5 {
 .bg-dark-green {
   background-color: var(--dark-green);
 }
+
+@media(max-width:768px){
+  .container{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+p{
+  color: var(--dark-gray);
+}

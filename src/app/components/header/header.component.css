@@ -53,6 +53,10 @@
   color: var(--light-green);
 }
 
+#menu-body nav ul li .active{
+  color: var(--dark-green);
+}
+
 #menu-body nav ul li #register-button{
   margin-top: 50px;
 

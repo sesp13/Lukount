@@ -1,0 +1,122 @@
+.client-card {
+  background-color: var(--light-green);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 1px 5px 5px rgb(211, 211, 211);
+}
+
+@media (min-width: 992px) {
+  .client-card {
+    height: 350px;
+  }
+}
+
+.client-card .card-body {
+  text-align: center;
+}
+
+.client-card .card-body .blockquote {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: auto;
+  padding: 20px;
+}
+
+.client-card .card-body p {
+  color: white;
+}
+
+.client-card .card-footer {
+  height: auto;
+  background-color: transparent;
+  border: none;
+}
+
+.client-card .client-photo {
+  border-radius: 75%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 31%;
+  bottom: -20%;
+  overflow: hidden;
+  background-color: blue;
+}
+
+@media (min-width: 440px) {
+  .client-card .client-photo {
+    left: 35%;
+  }
+}
+
+@media (min-width: 576px) {
+  .client-card .client-photo {
+    left: 38%;
+  }
+}
+
+@media (min-width: 768px) {
+  .client-card .client-photo {
+    left: 42%;
+  }
+}
+
+@media (min-width: 992px) {
+  .client-card .client-photo {
+    left: 31%;
+    bottom: -17%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .client-card .client-photo {
+    left: 35%;
+  }
+}
+
+.client-card .client-photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.client-card .client-name {
+  position: absolute;
+  font-size: 25px;
+  left: 23%;
+  bottom: -34%;
+  font-family: "Tommy-Light";
+}
+
+@media (min-width: 440px) {
+  .client-card .client-name {
+    left: 29%;
+    bottom: -38%;
+  }
+}
+
+@media (min-width: 576px) {
+  .client-card .client-name {
+    left: 32%;
+  }
+}
+
+@media (min-width: 768px) {
+  .client-card .client-name {
+    left: 38%;
+    bottom: -42%;
+  }
+}
+
+@media (min-width: 992px) {
+  .client-card .client-name {
+    left: 22%;
+    bottom: -33%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .client-card .client-name {
+    left: 27%;
+  }
+}

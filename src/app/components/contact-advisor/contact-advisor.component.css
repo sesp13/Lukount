@@ -11,13 +11,42 @@
   padding-top: 5px;
   padding-bottom: 5px;
   color: var(--dark-green);
-  font-size: 45px;
   text-align: center;
+  font-size: 30px;
+}
+
+@media (min-width: 576px) {
+  #contact-advisor-banner .message h2 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact-advisor-banner .message h2 {
+    font-size: 45px;
+  }
 }
 
 #contact-advisor-banner .message p {
-  font-size: 17px;
   text-align: center;
+  font-size: 15px;
+  color: var(--dark-green);
+}
+
+@media (min-width: 576px) {
+  #contact-advisor-banner .message p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact-advisor-banner .message p {
+    font-size: 17px;
+  }
+}
+
+#contact-advisor-banner form #ca-email {
+  border-radius: 50px;
 }
 
 #contact-advisor-banner .btn {

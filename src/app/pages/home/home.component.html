@@ -3,7 +3,7 @@
     <section id="main-banner" class="row">
         <div class="col-md-7">
             <h1>
-                Su aliado financiero 
+                Su aliado financiero <br>
                 <span>privilegiado</span>
             </h1>
             <p>
@@ -12,8 +12,8 @@
             </p>
             <a href="" class="btn btn-light-green">Crear cuenta</a>
         </div>
-
     </section>
+
     <section id="mission-banner" class="row">
         <div class="col-md-5">
             <h2>Nuestra misión</h2>
@@ -37,38 +37,7 @@
 
 <div class="bg-light-green">
     <div class="container">
-        <section id="banner-advison-1" class="row">
-            <div class="col-md-6 message">
-                <h2>Contactar un asesor</h2>
-                <div class="row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-10">
-                        <p>
-                            Envíanos un mensaje para que descubras nuestra plataforma y aprendas
-                            cómo podemos mejorar tu contabilidad.
-                        </p>
-                    </div>
-                    <div class="col-md-1"></div>
-                </div>
-            </div>
-            <div class="col-md-6 container">
-                <form action="" id="banner-advison-1-form">
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Tu correo">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Mensaje">
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="contact-form-1-check">
-                        <label for="contact-form-1-check" class="form-check-label">Acepto términos y condiciones</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" class="btn btn-dark-green" value="Enviar">
-                    </div>
-                </form>
-            </div>
-        </section>
+        <app-conctact-advisor2></app-conctact-advisor2>
     </div>
 </div>
 
@@ -77,13 +46,15 @@
         <div class="col-12">
             <h2>
                 No somos solo una empresa
-                <br>
+                <br class="d-none d-md-block">
                 de consultoría contable
             </h2>
         </div>
         <div class="col-lg-5 article-right">
             <div class="row article f-article">
-                <div class="col-md-11">
+                <div class="col-12 d-lg-none">
+                </div>
+                <div class="col-lg-10">
                     <h3>Conecta Todos
                         <br> tus Datos
                     </h3>
@@ -93,12 +64,14 @@
                         APIs y el Machine Learning opere por usted!
                     </p>
                 </div>
-                <div class="col-md-1">
+                <div class="d-none d-lg-block col-lg-2">
 
                 </div>
             </div>
             <div class="row article">
-                <div class="col-md-11">
+                <div class="col-12 d-lg-none">
+                </div>
+                <div class="col-lg-10">
                     <h3>Mejora tu Contabilidad
                         <br> e Informes
                     </h3>
@@ -109,20 +82,21 @@
                         de decisión administrativa
                     </p>
                 </div>
-                <div class="col-md-1">
+                <div class="d-none d-lg-block col-lg-2">
 
                 </div>
             </div>
         </div>
-        <div class="col-0 col-lg-2">
 
+        <div class="col-0 col-lg-2">
+            <!-- imagen central -->
         </div>
+
         <div class="col-lg-5 article-left">
             <div class="row article f-article">
-                <div class="col-md-1">
-
+                <div class="col-lg-2">
                 </div>
-                <div class="col-md-11">
+                <div class="col-lg-10">
                     <h3>Grupo de Expertos Centrados en tu Negocio.</h3>
                     <p>
                         Con gran experiencia y más tiempo disponible, nuestros contadores pueden centrarse en entregar
@@ -133,15 +107,13 @@
                 </div>
             </div>
             <div class="row article">
-                <div class="col-md-1">
-
+                <div class="col-lg-2">
                 </div>
-                <div class="col-md-11">
+                <div class="col-lg-10">
                     <h3>Obtenga Flexibilidad y Enfoquese en el Crecimiento de su Empresa</h3>
                     <p>
                         Estamos listos para crecer contigo. Asignamos los recursos que necesitas en cada etapa de su
                         ciclo de vida. Nuestro modelo de negocio es flexible y escalable: pagas por lo que necesitas
-
                     </p>
                 </div>
             </div>
@@ -152,11 +124,14 @@
         <div class="col-md-12">
             <h2>Descubra nuestra solución</h2>
         </div>
-        <div class="col-md-6">
+        <div class="d-none d-md-block col-md-6">
             <app-solution-form [pageTitle]="pageTitle"></app-solution-form>
         </div>
         <div class="col-md-6 message">
             <app-contact-message></app-contact-message>
+        </div>
+        <div class="d-block d-md-none col-md-6">
+            <app-solution-form [pageTitle]="pageTitle"></app-solution-form>
         </div>
     </section>
 
@@ -165,50 +140,9 @@
             Nuestros clientes <span> hablan</span>
         </h2>
         <div class="client-grid row">
-            <div class="col-lg-4 card-container">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="../../../assets/img/comillas.png" alt="Comillas" class="blockquote">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum illo voluptatum dolorum
-                            numquam veniam quidem totam nisi vero consectetur porro facilis sunt labore, libero
-                            recusandae esse cupiditate quibusdam! Consequatur, iure.</p>
-                    </div>
-                </div>
-                <div class="client-photo">
-                    <img src="https://cdn.vox-cdn.com/thumbor/Oi6jzvQzWetJGlkpwLqlP1L9p28=/0x0:5568x3712/1200x800/filters:focal(2858x720:3748x1610)/cdn.vox-cdn.com/uploads/chorus_image/image/62207705/922984782.jpg.0.jpg"
-                        alt="">
-                </div>
-                <p class="client-name">Emiliano lópez</p>
-            </div>
-            <div class="col-lg-4 card-container">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="../../../assets/img/comillas.png" alt="Comillas" class="blockquote">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum illo voluptatum dolorum
-                            numquam veniam quidem totam nisi vero consectetur porro facilis sunt labore, libero
-                            recusandae esse cupiditate quibusdam! Consequatur, iure.</p>
-                    </div>
-                </div>
-                <div class="client-photo">
-                    <img src="https://cdn.vox-cdn.com/thumbor/Oi6jzvQzWetJGlkpwLqlP1L9p28=/0x0:5568x3712/1200x800/filters:focal(2858x720:3748x1610)/cdn.vox-cdn.com/uploads/chorus_image/image/62207705/922984782.jpg.0.jpg"
-                        alt="">
-                </div>
-                <p class="client-name">Emiliano lópez</p>
-            </div>
-            <div class="col-lg-4 card-container">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="../../../assets/img/comillas.png" alt="Comillas" class="blockquote">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum illo voluptatum dolorum
-                            numquam veniam quidem totam nisi vero consectetur porro facilis sunt labore, libero
-                            recusandae esse cupiditate quibusdam! Consequatur, iure.</p>
-                    </div>
-                </div>
-                <div class="client-photo">
-                    <img src="https://cdn.vox-cdn.com/thumbor/Oi6jzvQzWetJGlkpwLqlP1L9p28=/0x0:5568x3712/1200x800/filters:focal(2858x720:3748x1610)/cdn.vox-cdn.com/uploads/chorus_image/image/62207705/922984782.jpg.0.jpg"
-                        alt="">
-                </div>
-                <p class="client-name">Emiliano lópez</p>
+            <div class="col-lg-4 card-container" *ngFor="let item of clientCardArray">
+                <app-client-card [content]="item.content" [imgRoute]="item.imgRoute" [clientName]="item.clientName">
+                </app-client-card>
             </div>
         </div>
     </section>

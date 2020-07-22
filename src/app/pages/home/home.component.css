@@ -6,8 +6,22 @@
 
 #main-banner h1 {
   color: var(--light-green);
-  font-size: 45px;
   text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  #main-banner h1 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  #main-banner h1 {
+    font-size: 45px;
+    text-align: left;
+  }
 }
 
 #main-banner h1 span {
@@ -15,7 +29,24 @@
 }
 
 #main-banner p {
-  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+  color: var(--dark-green);
+}
+
+@media (min-width: 576px) {
+  #main-banner p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  #main-banner p {
+    font-size: 20px;
+    text-align: left;
+    width: 85%;
+  }
 }
 
 #main-banner .btn {
@@ -23,6 +54,13 @@
   width: 50%;
   border-radius: 50px;
   box-shadow: 1px 1px 5px var(--light-green);
+}
+
+@media (max-width: 768px) {
+  #main-banner .btn {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 /* Baner de mision */
@@ -36,14 +74,32 @@
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 40px;
-  margin-bottom: 40px;
+}
+
+@media (min-width: 576px) {
+  #mission-banner h2 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  #mission-banner h2 {
+    margin-bottom: 40px;
+  }
 }
 
 #mission-banner p {
-  font-size: 18px;
-  text-align: justify;
-  line-height: 28px;
+  font-size: 16px;
+  text-align: center;
+  color: var(--dark-green);
+}
+
+@media (min-width: 768px) {
+  #mission-banner p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+  }
 }
 
 #mission-banner p span {
@@ -56,49 +112,13 @@
   padding: 15px;
   border-radius: 50px;
   margin-top: 15px;
+  display: none;
 }
 
-/* banner de asesor 1 */
-#banner-advison-1 {
-  height: auto;
-  padding-top: 50px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-}
-
-#banner-advison-1 .message h2 {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: var(--dark-green);
-  font-size: 45px;
-  text-align: center;
-}
-
-#banner-advison-1 .message p {
-  font-size: 17px;
-  text-align: center;
-}
-
-#banner-advison-1-form {
-  display: block;
-  margin: 0 auto;
-  width: 70%;
-}
-
-#banner-advison-1-form input[type="text"],
-#banner-advison-1-form input[type="email"] {
-  border-radius: 50px;
-}
-
-#banner-advison-1-form input[type="submit"] {
-  display: block;
-  margin: 0 auto;
-  margin-top: 10px;
-  padding: 10px;
-  border-radius: 50px;
-  padding-right: 20px;
-  padding-left: 20px;
-  width: 50%;
+@media (min-width: 768px) {
+  #mission-banner .btn {
+    display: block;
+  }
 }
 
 /* banner about */
@@ -109,34 +129,74 @@
 
 #banner-about h2 {
   color: var(--light-green);
-  font-size: 40px;
-  text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0 auto;
   margin-bottom: 30px;
 }
 
-#banner-about .article{
+@media (min-width: 576px) {
+  #banner-about h2 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  #banner-about h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+#banner-about .article {
   margin-bottom: 30px;
 }
 
-#banner-about .article-right {
-  text-align: right;
-}
+@media (min-width: 992px) {
+  #banner-about .article-right {
+    text-align: right;
+  }
 
-#banner-about .article-left {
-  text-align: left;
-}
+  #banner-about .article-left {
+    text-align: left;
+  }
 
-#banner-about .f-article {
-  height: 200px;
+  #banner-about .f-article {
+    height: 250px;
+  }
 }
 
 #banner-about .article h3 {
-  font-size: 23px;
-  height: 50px;
+  font-size: 20px;
   margin-bottom: 10px;
+}
+@media (min-width: 576px) {
+  #banner-about .article h3 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  #banner-about .article h3 {
+    font-size: 20px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #banner-about .article h3 {
+    height: 50px;
+  }
+}
+
+#banner-about .article p {
+  font-size: 15px;
+}
+
+@media (min-width: 576px) {
+  #banner-about .article p {
+    font-size: 17px;
+  }
 }
 
 /* discover solution */
@@ -149,8 +209,15 @@
   color: var(--dark-green);
   text-align: left;
   margin: 0 auto;
-  font-size: 35px;
   padding-bottom: 25px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #discover-solution h2 {
+    font-size: 35px;
+    text-align: left;
+  }
 }
 
 /* clients */
@@ -162,9 +229,20 @@
 #clients h2 {
   color: var(--light-green);
   text-align: center;
-  font-size: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  #clients h2 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  #clients h2 {
+    font-size: 50px;
+  }
 }
 
 #clients h2 span {
@@ -174,103 +252,4 @@
 #clients .client-grid .card-container {
   height: auto;
   margin-bottom: 100px;
-}
-
-#clients .client-grid .card {
-  background-color: var(--light-green);
-  color: white;
-  height: 300px;
-  border-radius: 10px;
-  box-shadow: 1px 5px 5px rgb(211, 211, 211);
-}
-
-#clients .client-grid .card .card-body {
-  text-align: center;
-}
-
-#clients .client-grid .card .card-body .blockquote {
-  display: block;
-  margin: 0 auto;
-  width: 80px;
-  height: auto;
-  padding: 20px;
-}
-#clients .client-grid .client-photo {
-  border-radius: 75%;
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  left: 40%;
-  bottom: -20%;
-  overflow: hidden;
-  background-color: blue;
-}
-
-@media (min-width: 768px) {
-  #clients .client-grid .client-photo {
-    left: 43%;
-    bottom: -20%;
-  }
-}
-
-@media (min-width: 992px) {
-  #clients .client-grid .client-photo {
-    left: 33%;
-    bottom: -24%;
-  }
-}
-
-@media (min-width: 1200px) {
-  #clients .client-grid .client-photo {
-    left: 37%;
-    bottom: -19%;
-  }
-}
-
-#clients .client-grid .client-photo img {
-  width: 100%;
-  height: 100%;
-}
-
-#clients .client-grid .client-name {
-  position: absolute;
-  font-size: 25px;
-  left: 33%;
-  bottom: -36%;
-  font-family: "Tommy-Light";
-}
-
-@media (min-width: 576px) {
-  #clients .client-grid .client-name {
-    left: 35%;
-    bottom: -36%;
-  }
-}
-
-@media (min-width: 768px) {
-  #clients .client-grid .client-name {
-    left: 39%;
-    bottom: -36%;
-  }
-}
-
-@media (min-width: 992px) {
-  #clients .client-grid .client-name {
-    left: 25%;
-    bottom: -41%;
-  }
-}
-
-@media (min-width: 992px) {
-  #clients .client-grid .client-name {
-    left: 25%;
-    bottom: -41%;
-  }
-}
-
-@media (min-width: 1200px) {
-  #clients .client-grid .client-name {
-    left: 30%;
-    bottom: -37%;
-  }
 }

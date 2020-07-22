@@ -16,6 +16,8 @@ import { BlogComponent } from './pages/blog/blog.component';
 import { BlogCardComponent } from './components/blog-card/blog-card.component';
 import { BlogEntryComponent } from './pages/blog-entry/blog-entry.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ClientCardComponent } from './components/client-card/client-card.component';
+import { ConctactAdvisor2Component } from './components/conctact-advisor2/conctact-advisor2.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     FaqContainerComponent,
     BlogComponent,
     BlogCardComponent,
-    BlogEntryComponent
+    BlogEntryComponent,
+    ClientCardComponent,
+    ConctactAdvisor2Component
   ],
   imports: [
     BrowserModule,
