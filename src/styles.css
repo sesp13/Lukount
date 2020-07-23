@@ -13,27 +13,27 @@
 /*Orden según intensidad*/
 @font-face {
   font-family: "Tommy-Light";
-  src: url(./assets/css/fonts/MADETommySoftLight.otf);
+  src: url(./assets/css/fonts/hind-light.otf);
 }
 
 @font-face {
   font-family: "Tommy-Regular";
-  src: url(./assets/css/fonts/MADETommySoft.otf);
+  src: url(./assets/css/fonts/hind-regular.otf);
 }
 
 @font-face {
   font-family: "Tommy-Medium";
-  src: url(./assets/css/fonts/MADETommySoftMedium.otf);
+  src: url(./assets/css/fonts/hind-medium.otf);
 }
 
 @font-face {
   font-family: "Tommy-Bold";
-  src: url(./assets/css/fonts/MADETommySoftBold.otf);
+  src: url(./assets/css/fonts/hind-semibold.otf);
 }
 
 @font-face {
   font-family: "Tommy-Black";
-  src: url(./assets/css/fonts/MADETommySoftBlack.otf);
+  src: url(./assets/css/fonts/hind-bold.otf);
 }
 
 body {
@@ -45,7 +45,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Tommy-Bold";
+  font-family: "Tommy-Black";
 }
 
 /* Botones */
