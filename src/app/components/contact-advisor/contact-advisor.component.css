@@ -7,6 +7,22 @@
   margin-bottom: 0;
 }
 
+#contact-advisor-banner .image-container{
+  display: block;
+  margin: 0 auto;
+}
+
+#contact-advisor-banner .image-container img{
+  height: 100%;
+  width: 90%;
+}
+
+@media(min-width:1200px){
+  #contact-advisor-banner .image-container img{
+    width: 80%;
+  }
+}
+
 #contact-advisor-banner .message h2 {
   padding-top: 5px;
   padding-bottom: 5px;

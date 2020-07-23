@@ -1,7 +1,46 @@
 /* Banner principal */
+
+.main-img {
+  background-image: url(../../../assets/lukount/HOME/BG.png);
+  padding-top: 50px;
+}
+
+.main-banner-container {
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+  .main-banner-container {
+    background-image: url(../../../assets/lukount/HOME/header_img.png);
+    background-size: 100% 75%;
+    background-position-y: 145px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-banner-container {
+    background-size: 100% 90%;
+    background-position-y: 50px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .main-banner-container {
+    background-size: 75% 80%;
+    background-position-y: 126px;
+    background-position-x: 40%;
+  }
+}
+
 #main-banner {
-  height: 400px;
-  margin-bottom: 20px;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 992px) {
+  #main-banner {
+    height: 500px;
+  }
 }
 
 #main-banner h1 {
@@ -19,8 +58,20 @@
 
 @media (min-width: 768px) {
   #main-banner h1 {
-    font-size: 45px;
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #main-banner h1 {
     text-align: left;
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #main-banner h1 {
+    font-size: 50px;
   }
 }
 
@@ -43,7 +94,12 @@
 
 @media (min-width: 768px) {
   #main-banner p {
-    font-size: 20px;
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 992px) {
+  #main-banner p {
     text-align: left;
     width: 85%;
   }
@@ -56,11 +112,22 @@
   box-shadow: 1px 1px 5px var(--light-green);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   #main-banner .btn {
     display: block;
     margin: 0 auto;
   }
+}
+
+#main-banner .image-container {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+#main-banner .image-container img {
+  width: 100%;
+  height: 100%;
 }
 
 /* Baner de mision */
@@ -84,6 +151,7 @@
 
 @media (min-width: 768px) {
   #mission-banner h2 {
+    font-size: 45px;
     margin-bottom: 40px;
   }
 }
@@ -118,6 +186,23 @@
 @media (min-width: 768px) {
   #mission-banner .btn {
     display: block;
+  }
+}
+
+#mission-banner .image-container {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+#mission-banner .image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 992px) {
+  #mission-banner .image-container {
+    margin-top: initial;
   }
 }
 
@@ -166,6 +251,16 @@
   }
 }
 
+.center-container {
+  display: block;
+  margin: 0 auto;
+}
+
+.center-container img {
+  width: 98%;
+  height: 100%;
+}
+
 #banner-about .article h3 {
   font-size: 20px;
   margin-bottom: 10px;
@@ -200,9 +295,16 @@
 }
 
 /* discover solution */
+
+#discover-solution-container {
+  background-image: url(../../../assets/lukount/HOME/bg_02.png);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 #discover-solution {
   height: auto;
-  margin-bottom: 75px;
+  margin-bottom: 45px;
 }
 
 #discover-solution h2 {
@@ -213,9 +315,20 @@
   text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   #discover-solution h2 {
     font-size: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  #discover-solution h2 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  #discover-solution h2 {
     text-align: left;
   }
 }
@@ -233,7 +346,7 @@
   padding-bottom: 30px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   #clients h2 {
     font-size: 40px;
   }

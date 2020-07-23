@@ -27,12 +27,12 @@
 }
 
 @font-face {
-  font-family: "Tommy-Bold";
+  font-family: "Tommy-SemiBold";
   src: url(./assets/css/fonts/hind-semibold.otf);
 }
 
 @font-face {
-  font-family: "Tommy-Black";
+  font-family: "Tommy-Bold";
   src: url(./assets/css/fonts/hind-bold.otf);
 }
 
@@ -45,7 +45,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Tommy-Black";
+  font-family: "Tommy-Bold";
 }
 
 /* Botones */

@@ -4,7 +4,7 @@
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #solution-form {
     margin: initial;
     width: 80%;
