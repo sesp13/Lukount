@@ -1,3 +1,6 @@
+<div class="container mt-5">
+    <app-header></app-header>
+</div>
 <div class="container">
     <section id="main-banner" class="row">
         <div class="col-md-5">
@@ -20,7 +23,8 @@
         <div class="col-12 mt-5">
             <div class="row">
                 <div *ngFor="let item of contentPosts" class="col-lg-4">
-                    <app-blog-card [title]="item.title" [content]="item.content" [imagePath]="item.imagePath" [authorName]="item.authorName">
+                    <app-blog-card [title]="item.title" [content]="item.content" [imagePath]="item.imagePath"
+                        [authorName]="item.authorName">
                     </app-blog-card>
                 </div>
             </div>
