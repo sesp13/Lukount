@@ -6,33 +6,65 @@
 
 #footer p{
   margin-bottom: 0;
+  color: white;
 }
 
 #footer p a {
   color: var(--light-green);
 } 
 
-#footer-nav {
-  height: 100%;
+#footer .md-images{
+  display: flex;
+  justify-content: center;
 }
 
-@media (min-width: 576px) {
+#footer .md-images .d-flex{
+  justify-content: space-around;
+}
+
+#footer .md-images img{
+  height: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#footer-nav {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#footer-nav ul {
+  padding-left: 0;
+}
+
+@media (min-width: 768px) {
+  #footer-nav {
+    height: 100%;
+    display: initial;
+    justify-content: initial;
+  }
+
   #footer-nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100%;
+    padding-left: initial;
   }
 }
 
 #footer-nav ul li {
   list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 768px) {
   #footer-nav ul li {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: initial;
+    padding-bottom: initial;
   }
 }
 
@@ -44,7 +76,7 @@
   display: none;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   #footer-nav ul .separator {
     display: block;
   }
@@ -53,6 +85,12 @@
 #footer-nav ul li a {
   color: white;
   font-size: 20px;
+}
+
+@media(min-width:768px){
+  #footer-nav ul li a {
+    text-align: initial;
+  }
 }
 
 #footer-nav ul li a:hover {
@@ -68,4 +106,8 @@
 
 #footer .images img {
   margin-right: 20px;
+}
+
+#footer  .final-text-md p{
+  text-align: center;
 }
