@@ -1,21 +1,23 @@
-<div class="container mt-5">
-    <app-header></app-header>
+<div class="main-img">
+    <div class="container">
+        <app-header></app-header>
+        <section id="main-banner" class="row">
+            <div class="col-lg-5">
+                <h1>
+                    Lorem ipsum dolor sit amet consectetur
+                </h1>
+                <a [routerLink]="['/entrada']">
+                    Leer más <i class="fa fa-long-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-lg-7 image-container">
+                <img src="../../../assets/lukount/BLOG/blog_img.png" alt="Imagen de blog">
+            </div>
+        </section>
+    </div>
 </div>
+
 <div class="container">
-    <section id="main-banner" class="row">
-        <div class="col-md-5">
-            <h1>
-                Lorem ipsum dolor sit amet consectetur
-            </h1>
-            <a [routerLink]="['/entrada']">
-                Leer más <i class="fa fa-long-arrow-right"></i>
-            </a>
-        </div>
-        <div class="col-md-7">
-
-        </div>
-    </section>
-
     <section id="blog" class="row">
         <div class="col-12">
             <h2>Recientes</h2>
@@ -24,7 +26,7 @@
             <div class="row">
                 <div *ngFor="let item of contentPosts" class="col-lg-4">
                     <app-blog-card [title]="item.title" [content]="item.content" [imagePath]="item.imagePath"
-                        [authorName]="item.authorName">
+                        [authorName]="item.authorName" [authorImage]="item.authorImage">
                     </app-blog-card>
                 </div>
             </div>

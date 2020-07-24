@@ -3,15 +3,20 @@
 }
 
 #blog-card .card-header {
-  height: 150px;
   background-color: var(--light-green);
   padding-bottom: 20px;
   border: none;
 }
 
+#blog-card .card-header img {
+  width: 100%;
+  height: 100%;
+}
+
 #blog-card .card-body h4 {
   color: var(--dark-green);
   margin-bottom: 20px;
+  height: 50px;
 }
 
 #blog-card .card-body p {

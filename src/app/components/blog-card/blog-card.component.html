@@ -1,6 +1,6 @@
 <div id="blog-card" class="card mt-2">
     <div class="card-header">
-        <img src="" alt="" class="main-img">
+        <img src="{{ imagePath }}" alt="Imagen del post">
     </div>
     <div class="card-body">
         <h4>{{ title }}</h4>
@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-3">
                 <div class="author-photo">
-                    <img src="{{ imagePath }}" alt="">
+                    <img src="{{ authorImage }}" alt="Imagen del autor">
                 </div>
             </div>
             <p>{{ authorName }}</p>
