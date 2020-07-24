@@ -1,60 +1,96 @@
 /* Contenedor faq */
 
-#faq-container{
-    margin-bottom: 50px;
+#faq-container {
+  margin-bottom: 50px;
 }
 
-#faq-container .question p{
-    font-weight: bold;
-    font-size: 16px;
+#faq-container .question p {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 35px;
 }
 
-@media(max-width:576px){
-    #faq-container .question p{
-        margin: 0 auto;
-        line-height: 30px;
-        width: 80%;
-    }
+@media(min-width:576px){
+    #faq-container .question p {
+      font-size: 18px;
+    }    
 }
 
-#faq-container .question  span,
-#faq-container .answer  span{
-    font-family: "Tommy-Bold";
-    background-color: var(--yellow);
-    border-radius: 5px;
-    color: white;
-    padding: 10px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 10px;
-    margin-left: 20px;
+@media(min-width:768px){
+    #faq-container .question p {
+      font-size: 20px;
+    }    
 }
 
-#faq-container .answer  span{
-    margin-left: 0px;
-    margin-right: 0px;
-    background-color: var(--purple);
+@media (min-width: 992px) {
+  #faq-container .question p {
+    font-size: 18px;
+    margin-left: initial;
+  }
 }
 
-#faq-container .answer{
+#faq-container .question .p-symbol,
+#faq-container .answer span {
+  font-family: "Tommy-Bold";
+  background-color: var(--yellow);
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+@media (min-width: 992px) {
+  #faq-container .question .p-symbol {
+    display: initial !important;
+  }
+}
+
+#faq-container .answer span {
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: var(--purple);
+}
+
+#faq-container .answer {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+@media (min-width: 992px) {
+  #faq-container .answer {
     margin-left: 30px;
-    margin-top: 15px;
+  }
 }
 
-#faq-container .answer .col-xs-12{
-    margin-bottom: 10px;
+#faq-container .answer .col-xs-12 {
+  margin-bottom: 10px;
 }
 
-#faq-container .answer .col-1{
-    margin-right: 0;
-    padding-right: 0;
+#faq-container .answer .col-1 {
+  margin-right: 0;
+  padding-right: 0;
 }
 
-#faq-container .answer .col-11{
-    margin-left: 0;
-    padding-left: 0;
+#faq-container .answer .col-11 {
+  margin-left: 0;
+  padding-left: 0;
 }
 
-#faq-container .answer  p{
-    font-family: "Tommy-Light";
+#faq-container .answer p {
+  font-family: "Tommy-Light";
+}
+
+@media (min-width: 992px) {
+  #faq-container .answer p {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #faq-container .answer p {
+    margin-left: initial;
+  }
 }

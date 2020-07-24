@@ -1,25 +1,43 @@
-<div class="container mt-5">
-    <app-header></app-header>
+<div class="main-img">
+    <div class="container">
+        <app-header></app-header>
+        <section class="row" id="main-banner">
+            <div class="col-12">
+                <h1>Preguntas frecuentes</h1>
+                <p>
+                    Respuestas a todo lo que se pregunta sobre la aplicación y el servicio
+                </p>
+            </div>
+        </section>
+    </div>
 </div>
-<div class="container">
-    <section class="row" id="main-banner">
-        <div class="col-12">
-            <h1>Preguntas frecuentes</h1>
-            <p>
-                Respuestas a todo lo que se pregunta sobre la aplicación y el servicio
-            </p>
-        </div>
-    </section>
 
-    <section id="faq-banner" class="row">
-        <div class="col-md-10" id="faq-grid">
-            <app-faq-container *ngFor="let item of questions" [question]="item.question" [answer]="item.answer">
-            </app-faq-container>
-        </div>
-        <div class="col-sm-0 col-md-2">
-
-        </div>
-    </section>
-
+<div class="faq-container">
+    <div class="container">
+        <section id="faq-banner" class="row">
+            <div class="col-lg-9" id="faq-grid">
+                <app-faq-container *ngFor="let item of questions" [question]="item.question" [answer]="item.answer">
+                </app-faq-container>
+            </div>
+            <div class="d-none d-lg-block col-lg-3 faq-v">
+                <img src="../../../assets/lukount/FAQ/3.0x/f_icon.png" alt="F">
+                <img src="../../../assets/lukount/FAQ/3.0x/a_icon.png" alt="A">
+                <img src="../../../assets/lukount/FAQ/3.0x/q_icon.png" alt="Q">
+            </div>
+            <div class="col-12 d-lg-none mt-5">
+                <div class="row images">
+                    <div class="col-4">
+                        <img src="../../../assets/lukount/FAQ/f_icon.png" alt="F" class="f">
+                    </div>
+                    <div class="col-4">
+                        <img src="../../../assets/lukount/FAQ/a_icon.png" alt="A" class="a">
+                    </div>
+                    <div class="col-4">
+                        <img src="../../../assets/lukount/FAQ/q_icon.png" alt="Q" class="q">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <app-contact-advisor></app-contact-advisor>
 </div>
-<app-contact-advisor></app-contact-advisor>
