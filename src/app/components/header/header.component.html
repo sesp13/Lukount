@@ -14,47 +14,55 @@
         <!-- Modal del menú responsive -->
 
         <ng-template #menu let-modal>
-            <div class="modal-header" id="menu-header">
-                <button class="close float-right" aria-label="close" type="button" (click)="modal.dismiss()">
-                    <i class="fa fa-times"></i>
-                </button>
-            </div>
-            <div class="modal-body" id="menu-body">
-                <div class="row">
-                    <div class="col-7">
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a [routerLink]="['/home']" [routerLinkActive]="['active']" (click)="modal.close()">
-                                        Home
-                                    </a>
-                                </li>
-                                <li>
-                                    <a [routerLink]="['/contacto']" [routerLinkActive]="['active']"
-                                        (click)="modal.close()">
-                                        Contacto
-                                    </a>
-                                </li>
-                                <li>
-                                    <a [routerLink]="['/faq']" [routerLinkActive]="['active']" (click)="modal.close()">
-                                        FAQ
-                                    </a>
-                                </li>
-                                <li>
-                                    <a [routerLink]="['/blog']" [routerLinkActive]="['active']" (click)="modal.close()">
-                                        Blog
-                                    </a>
-                                </li>
-                                <li>
-                                    <button class="btn btn-outline btn-outline-light-green" id="register-button">
-                                        Registrate
-                                    </button>
-                                </li>
-                            </ul>
-                        </nav>
+            <div class="modal-container">
+                <div class="modal-header" id="menu-header">
+                    <div class="container pt-3 pb-3">
+                        <img src="../../../assets/lukount/HOME/logo.png" alt="Logo" class="float-left">
+                        <button class="close float-right" aria-label="close" type="button" (click)="modal.dismiss()">
+                            <i class="fa fa-times"></i>
+                        </button>
                     </div>
-                    <div class="col-5">
-
+                </div>
+                <div class="modal-body" id="menu-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a [routerLink]="['/home']" [routerLinkActive]="['active']"
+                                            (click)="modal.close()">
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a [routerLink]="['/contacto']" [routerLinkActive]="['active']"
+                                            (click)="modal.close()">
+                                            Contacto
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a [routerLink]="['/faq']" [routerLinkActive]="['active']"
+                                            (click)="modal.close()">
+                                            FAQ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a [routerLink]="['/blog']" [routerLinkActive]="['active']"
+                                            (click)="modal.close()">
+                                            Blog
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <button class="btn btn-outline btn-outline-light-green" id="register-button">
+                                            Registrate
+                                        </button>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-6 image-container">
+                            <img src="../../../assets/lukount/HOME/empresa_img.png" alt="Empresa">
+                        </div>
                     </div>
                 </div>
             </div>

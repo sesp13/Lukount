@@ -29,6 +29,15 @@
 
 /* Modal del menú */
 
+.modal-container{
+  background-image: url(../../../assets/lukount/HOME/bg_02.png);
+  background-color: var(--light-green-bg);
+}
+
+.modal-container .modal-body .image-container img{
+  width: 100%;
+}
+
 #menu-header{
   border: none;
   padding-right: 30px;
