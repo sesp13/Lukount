@@ -1,37 +1,67 @@
-<div class="container mt-5">
-    <app-header></app-header>
+<div class="main-img">
+    <div class="container">
+        <app-header></app-header>
+        <section id="main-banner" class="row">
+            <div class="col-12">
+                <h1>Entrada de blog</h1>
+            </div>
+        </section>
+    </div>
 </div>
-<div class="container">
-    <section id="main-banner" class="row">
-        <div class="col-12">
-            <h1>Entrada de blog</h1>
-        </div>
-    </section>
 
+<div class="container">
     <section id="blog-entry" class="row">
-        <div class="col-md-3 about">
+        <div class="col-12 d-lg-none img-container">
+            <!-- Imagen vista Responsive -->
+        </div>
+
+        <!-- Parte del autor Responsive -->
+        <div class="col-12 d-lg-none mt-3 mb-5 about-r">
             <div class="row">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-7">
+                <div class="col-6 date">
+                    <h5>Publicado</h5>
+                    <p>22/06/2020</p>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="photo-container d-flex justify-content-center">
+                            <img src="https://cdn.vox-cdn.com/thumbor/Oi6jzvQzWetJGlkpwLqlP1L9p28=/0x0:5568x3712/1200x800/filters:focal(2858x720:3748x1610)/cdn.vox-cdn.com/uploads/chorus_image/image/62207705/922984782.jpg.0.jpg"
+                                alt="">
+                        </div>
+                        <div class="col author">
+                            <h5>Escritor</h5>
+                            <p>Miguel Cano</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <!-- Parte del autor normal -->
+        <div class="d-none d-lg-block col-lg-3 about">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-7">
                     <h5>Publicado</h5>
                     <p>22/06/2020</p>
                 </div>
             </div>
             <hr>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-3">
                     <div class="photo-container">
                         <img src="https://cdn.vox-cdn.com/thumbor/Oi6jzvQzWetJGlkpwLqlP1L9p28=/0x0:5568x3712/1200x800/filters:focal(2858x720:3748x1610)/cdn.vox-cdn.com/uploads/chorus_image/image/62207705/922984782.jpg.0.jpg"
                             alt="">
                     </div>
                 </div>
-                <div class="col-sm-7">
+                <div class="col-7">
                     <h5>Escritor</h5>
                     <p>Miguel Cano</p>
                 </div>
             </div>
             <hr>
-            <div class="row">
+            <div class="d-none d-lg-block row">
                 <div class="col-md-3"></div>
                 <div class="col-md-7">
                     <div class="row">
@@ -52,9 +82,9 @@
             </div>
 
         </div>
-        <div class="col-md-8 content">
-            <div class="img-container">
-
+        <div class="col-lg-8 content">
+            <div class="d-none d-lg-block img-container">
+                <!-- imagen vista principal -->
             </div>
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet deserunt accusamus aliquam atque
@@ -80,6 +110,15 @@
                 veniam beatae debitis quod nulla odit minima, id, qui libero placeat vel itaque magnam facilis
                 obcaecati.
             </p>
+
+            <div class="d-lg-none social-responsive">
+                <h5>Compartir</h5>
+                <div class="images">
+                    <img src="../../../assets/img/facebook-dark-green.png" alt="facebook">
+                    <img src="../../../assets/img/instagram-dark-green.png" alt="instagram">
+                    <img src="../../../assets/img/twitter-dark-green.png" alt="twitter">
+                </div>
+            </div>
 
         </div>
     </section>
