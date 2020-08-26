@@ -65,7 +65,7 @@
   color: var(--dark-gray);
 }
 
-#banner-advison-1-form input[type="submit"] {
+#banner-advison-1-form input[type="submit"], .submit-button {
   display: block;
   margin: 0 auto;
   margin-top: 10px;
