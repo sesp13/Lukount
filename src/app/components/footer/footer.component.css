@@ -111,3 +111,11 @@
 #footer  .final-text-md p{
   text-align: center;
 }
+
+/*
+ Quitar esta clase cuando hayan links de redes sociales 
+y el pb en la fila del footer para webs grandes
+*/
+.social-d-none{
+  display: none !important;
+}
