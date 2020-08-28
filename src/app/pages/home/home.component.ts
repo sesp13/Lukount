@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare var $: any;
 
 @Component({
   selector: 'app-home',
@@ -40,6 +41,25 @@ export class HomeComponent implements OnInit {
     //     clientName: "Emiliano López"
     //   }
     // ];
+    this.scroll();
+  }
+
+  //Animación del boton de conocenos
+  public scroll(){
+    $('#btn-conocenos').click(function(){
+      var destino = $(this.hash);
+      var v = destino[0].id;
+      if (v != "myCarousel") {
+          if (destino.length == 0) {
+              destino = $('a[name="' + this.hash.substr(1) + '"]');
+          }
+          if (destino.length == 0) {
+              destino = $('html');
+          }
+          $('html, body').animate({ scrollTop: destino.offset().top }, 1000);
+          return false;
+      }
+    });
   }
 
 }
